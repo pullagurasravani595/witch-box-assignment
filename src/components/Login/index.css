@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.app-login-container {
+  background: #121212;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.login-card-container {
+  background: #2e2d2b;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.login-card-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 80vh;
+}
+
+.new-paragraph {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.center-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-content {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.30000001192092896px;
+  margin-left: 10px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.signup-btn {
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.center-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-btn {
+  background-image: linear-gradient(91.73deg, #4B63DD -2.99%, rgba(5, 36, 191, 0.99) 95.8%);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.last {
+  color: #909296;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-paragraph {
+  color: #5C5F66;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2e2d2b;
+  height: 10vh;
+  width: 100%;
+}
+
